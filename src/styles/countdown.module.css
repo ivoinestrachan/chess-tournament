@@ -1,0 +1,81 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  color: #ffff;
+  
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0.5rem;
+}
+
+.placeholder {
+  font-weight: bolder;
+  margin-top: -30px;
+}
+
+.timerText {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #ffff;
+  font-size: 250%;
+}
+
+.placeholder {
+  font-size: 1.4rem;
+}
+
+.animate {
+  opacity: 1;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.days {
+  animation: leftToRight 1.5s;
+}
+.seconds {
+  animation: rightToLeft 1.5s;
+}
+.minutes {
+  animation: rightToLeft 1s;
+}
+.hours {
+  animation: leftToRight 1s;
+}
+
+@keyframes leftToRight {
+  from {
+    transform: translateX(-10vw);
+  }
+  to {
+    transform: none;
+  }
+}
+
+@keyframes rightToLeft {
+  from {
+    transform: translateX(10vw);
+  }
+  to {
+    transform: none;
+  }
+}
+
+
+@media screen and (max-width: 1204px){
+  .placeholder {
+    font-size: 1rem;
+  }
+}

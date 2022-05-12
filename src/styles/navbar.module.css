@@ -1,0 +1,57 @@
+@font-face {
+  font-family: Coyote;
+  src: url(../font/Coyote.ttf);
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+
+.Logo{
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+}
+
+.link{
+  color: #fff;
+  font-family: Coyote, sans-serif;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+.link2{
+  color: #fff;
+  font-family: Coyote, sans-serif;
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+.links{
+  margin-left: 600px;
+}
+
+.link:hover{
+  color: #0057ff;
+}
+
+.link2:hover{
+  color: #0057ff;
+}
+
+@media screen and (max-width: 1204px){
+  .links{
+    margin-left: 0px;
+  }
+
+  .link{
+    margin-left: 0px;
+  }
+  .link2{
+    display: none;
+  }
+}

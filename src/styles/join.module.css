@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Coyote;
+  src: url(../font/Coyote.ttf);
+}
+
+.form{
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+  font-family: Coyote, sans-serif;
+}
+
+.inputWrapper{
+  margin-top: 20px;
+}
+
+
+.input{
+  border: none;
+  border-radius: 3px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  outline: none;
+  text-align: center;
+}
+
+.button{
+  border: none;
+  border-radius: 3px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 120px;
+  padding-right: 120px;
+  cursor: pointer;
+  background-color: #0057ff;
+  font-size: 20px;
+  color: #ffff;
+  font-weight: bold;
+}
+
+.fieldSuccessmsg{
+  color: lightgreen;
+  font-size: 0.9rem;
+}

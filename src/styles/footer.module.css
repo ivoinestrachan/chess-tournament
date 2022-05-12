@@ -1,0 +1,20 @@
+
+.icon{
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 30px;
+  color: #ffff;
+}
+.icon:hover{
+  opacity: 0.4;
+}
+.footer{
+  margin-top: 200px;
+  text-align: center;
+}
+
+@media screen and (max-width: 1204px){
+  .footer{
+    margin-top: 100px;
+  }
+}

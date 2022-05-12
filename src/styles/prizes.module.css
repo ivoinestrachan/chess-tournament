@@ -1,0 +1,55 @@
+@font-face {
+  font-family: Coyote;
+  src: url(../font/Coyote.ttf);
+}
+
+
+.container{
+  color: #ffff;
+  margin-left: 40px;
+  align-items: center;
+}
+
+.list{
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: Coyote, sans-serif;
+  margin-left: 50px;
+}
+h3{
+  margin-left: 50px;
+}
+.listcon{
+  align-items: center;
+  background-color: purple;
+  border-radius: 4px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  width: 1000px;
+}
+
+.trophy{
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+
+@media screen and (max-width: 1204px){
+.listcon{
+  justify-content: center;
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: 250px;
+}
+
+.list{
+  text-align: center;
+  margin-left: 0px;
+}
+
+li.list{
+  list-style: none;
+}
+}
