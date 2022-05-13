@@ -21,10 +21,11 @@ const Join = (props) => {
    },[]);
 
   
-  const [user, setUser] = useState({
+  const [user, setUser, data, SetData] = useState({
     username: '',
    email: '',
   });
+
   
   const [isError, setIsError] = useState(false);
 
@@ -34,15 +35,15 @@ const Join = (props) => {
   });
 
   const handleOnChange = async(e) => {
-    setUser({ ...user, username: e.target.value });
+    setUser({ ...user, ...data, username: e.target.value });
   };
   const handleOnSubmit = async (e) => {
-    e.preventDefault();
+    e.preventDefault(); 
     if (user.username || user.email) setIsError(true);
     if (user.email) setFieldSuccess({...fieldSuccess, email: 'You have been added '});
     if (!user.username || !user.email) setIsError(true);
     if (!user.email) setFieldSuccess({...fieldSuccess, email: 'Fill in all fields' });
-    try{
+   /* try{
        const response = await InformationData.post("/", {
           username: user.username,
           email: user.email,
@@ -50,6 +51,25 @@ const Join = (props) => {
         console.log(response);
     }catch(err) {
       console.log(err);
+    }
+  */
+    try{
+      const response = await fetch('https://v1.nocodeapi.com/rexct/google_sheets/yGxWOCdZGFqiWIUH?tabId=Sheet1',{
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify([
+        [user.username, user.email, new Date().toLocaleString()]
+      ])
+    });
+    await response.json();
+    SetData({...data, 
+      username: user.username,
+      email:  user.email,
+    });
+    }catch (err) {
+        console.log(err);
     }
     
   }
