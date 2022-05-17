@@ -1,0 +1,38 @@
+
+
+.tableContainer{
+  margin-top: 50px;
+  font-family: sans-serif;
+}
+
+.tableCon{
+  margin-left: 50px;
+}
+
+.play{
+  color: #fff;
+  margin-right: 40px;
+}
+
+h1{
+  color: #fff;
+  text-align: center;
+}
+
+.buttonWrap{
+  text-align: center;
+  margin-top: 40px;
+}
+.button{
+  border: none;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border-radius: 3px;
+  background-color: #0057ff;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
