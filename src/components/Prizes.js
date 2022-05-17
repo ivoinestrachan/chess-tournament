@@ -9,7 +9,7 @@ const Prizes = () => {
       <ul>
         <div className={styles.listcon}>
         <h3>1st place <span className={styles.trophy}><BsTrophy /></span></h3>
-        <li className={styles.list}>$25 Apple giftcard</li>
+        <li className={styles.list}>Discord Nitro</li>
         </div>
       
         <div className={styles.listcon}>
