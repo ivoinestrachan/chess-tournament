@@ -54,7 +54,7 @@ const Join = (props) => {
     }
   */
     try{
-      const response = await fetch('https://v1.nocodeapi.com/rexct/google_sheets/yGxWOCdZGFqiWIUH?tabId=Sheet1',{
+      const response = await fetch('',{
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
