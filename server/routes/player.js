@@ -10,7 +10,7 @@ function isAuthorized(req, res, next) {
   }
 }
 router.get('/', isAuthorized,(req, res) => {
-  res.redirect('https://chesstournament.vercel.app//players');
+  res.redirect('https://chesstournament.vercel.app/auth/players');
 });
 
 module.exports = router;

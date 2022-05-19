@@ -23,7 +23,7 @@ const App = () => {
       <Route path="/" element={<Home />} />
      <Route path="/prizes" element={<Prizes />}/>
     {/* <Route element={<ProtectedRoutes />}> */}
-     <Route path="/players" element={<Players />} />
+     <Route path="/auth/players" element={<Players />} />
     {/* </Route> */}
       </Routes>
    </BrowserRouter>
