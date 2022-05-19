@@ -1,0 +1,32 @@
+.container{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.discord{
+  color: #5865F2;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  width: auto;
+  line-height: 1.2;
+  background: #ffff;
+  border: none;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  border-radius: 2rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.discord:hover{
+  background:#0057ff;
+  color: #ffff;
+  transition: transform .2s; /* Animation */
+  transform: scale(1.1);
+}

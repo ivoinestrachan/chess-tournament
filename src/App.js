@@ -11,7 +11,9 @@ import { InformationContextProvider } from './context/InformationContext';
 import Players from './components/Players';
 /* import ProtectedRoutes from './ProtectedRoutes'; */
 
+
 const App = () => {
+
   return (
     <InformationContextProvider>
     <div>
