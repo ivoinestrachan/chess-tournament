@@ -5,7 +5,7 @@ import {FaDiscord} from 'react-icons/fa';
 const Login = () => {
 
   const redirect  = () => {
-    window.location.href = "http://localhost:4000/auth/redirect";
+    window.location.href = " https://chesstournament.vercel.app/auth/redirect";
   }
 
   return (
