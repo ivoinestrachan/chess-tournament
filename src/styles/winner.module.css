@@ -10,11 +10,13 @@
 h1{
   color: #fff;
   font-size: 4rem;
+  text-decoration: #35aff3 wavy underline;
 }
 h1:hover{
   color: #35aff3;
   transition: transform .2s; /* Animation */
   transform: scale(1.4);
+  text-decoration: white wavy underline;
 }
 .container {
   margin-top: 2rem;
