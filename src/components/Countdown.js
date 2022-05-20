@@ -18,11 +18,11 @@ const Countdown = () => {
     var today = new Date().getTime();
 
   // launch day - current time
-   var distance = countDownDate - today;
-    setDay(Math.floor(distance / (1000 * 60 * 60 * 24)));
-     setHour(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
-    setMin(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)));
-    setSec(Math.floor((distance % (1000 * 60)) / 1000));
+   //var distance = countDownDate - today;
+    //setDay(Math.floor(distance / (0 * 0 * 0 * 0)));
+     //setHour(Math.floor((distance % (0 * 0 * 0 * 0)) / (0 * 0 * 0)));
+    //setMin(Math.floor((distance % (0 * 0 * 0)) / (0 * 0)));
+    //setSec(Math.floor((distance % (0 * 0)) / 0));
    }, 1000);
 
   return (
