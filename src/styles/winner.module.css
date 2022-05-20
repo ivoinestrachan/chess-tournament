@@ -1,0 +1,134 @@
+.container{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-decoration: none;
+}
+
+h1{
+  color: #fff;
+  font-size: 4rem;
+}
+h1:hover{
+  color: #35aff3;
+  transition: transform .2s; /* Animation */
+  transform: scale(1.4);
+}
+.container {
+  margin-top: 2rem;
+  white-space: no-wrap;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.itemContainer {
+  margin-bottom: 2.5rem;
+  min-width: 327.9px;
+  /* border: 2px solid white; */
+  border-radius: 8px;
+  width: 16%;
+}
+
+.header {
+  transform: translateY(280px);
+  font-weight: bolder;
+  font-size: 1.5em;
+  padding: 0.5rem;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+}
+.header:after {
+  transform: translateY(10px);
+  content: "";
+  background: white;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 5px;
+  width: 65%;
+  margin-left: 10px;
+}
+.img {
+  width: 100%;
+  border-radius: 10px;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.name {
+  max-width: 200px;
+  font-size: 3em;
+  margin-left: 10px;
+  transform: translateY(-150px);
+  position: absolute;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
+.backStats {
+  font-size: 1em;
+  position: absolute;
+  transform: translate(80px, -120px);
+}
+.flipContainer {
+  perspective: 1000px;
+}
+.flipContainer:hover .flipper,
+.flipContainerr .flipper {
+  transform: rotateY(180deg);
+}
+.flipContainer,
+.front,
+.back {
+  width: 300px;
+  height: 480px;
+}
+
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+
+  position: relative;
+}
+.front,
+.back {
+  backface-visibility: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.front {
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
+}
+.back {
+  transform: rotateY(180deg);
+}
+.info {
+  background-color: #35aff3;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  border-radius: 2px;
+}
+
+.heading {
+  text-align: center;
+  font-weight: bolder;
+  width: max-content;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: min(5vw, 59.3px);
+  margin-bottom: 0rem;
+  color: #fff;
+}
+

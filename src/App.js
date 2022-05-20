@@ -5,10 +5,11 @@ import {
   Routes,
   Route
 } from "react-router-dom";
-import Prizes from './components/Prizes';
+/* import Prizes from './components/Prizes'; */
 import Home from './components/Home';
 import { InformationContextProvider } from './context/InformationContext';
-import Players from './components/Players';
+import Winners from './components/Winners';
+/*import Players from './components/Players';*/
 /* import ProtectedRoutes from './ProtectedRoutes'; */
 
 
@@ -21,9 +22,10 @@ const App = () => {
       <Navbar />
      <Routes>
       <Route path="/" element={<Home />} />
-     <Route path="/prizes" element={<Prizes />}/>
+      <Route path="/winners" element={<Winners />} />
+    {/* <Route path="/prizes" element={<Prizes />}/> */}
     {/* <Route element={<ProtectedRoutes />}> */}
-     <Route path="/auth/players" element={<Players />} />
+  {/*   <Route path="/auth/players" element={<Players />} /> /}
     {/* </Route> */}
       </Routes>
    </BrowserRouter>

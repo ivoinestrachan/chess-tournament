@@ -11,14 +11,16 @@ const Navbar = () => {
         <img src={logo} alt=""  draggable="false"/>
         </Link>
       </div>
-      <div className={styles.links}>
+      {/*<div className={styles.links}>
       <Link to="/" className={styles.link2}>
             Home      
         </Link>
         <Link to="/prizes" className={styles.link}>
             Prizes      
         </Link>
-        </div>
+       
+        </div> */}
+  
     </div>
   );
 }

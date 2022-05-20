@@ -1,23 +1,23 @@
 [
   {
-      "white": "Elane",
+      "white": "Wander",
       "won": "0",
-      "black": "Chika",
+      "black": "Curtis",
       "lost": "0"
      
   }, {
-    "white": "Cjfizz76",
+    "white": "Avian",
     "won": "0",
-    "black": "Dhawal",
+    "black": "Elaine",
     "lost": "0"
    
   }, {
-    "white": "Wander",
+    "white": "Dhawal",
     "won": "0",
-    "black": "Avian Pride",
+    "black": "Chika",
     "lost": "0"
   },{
-    "wins": "dhawal(1), curtis(1),chika(1), elaine(draw), wander(draw)",
-    "losts": "avian(0), "
+    "wins": "dhawal(4), curtis(2),chika(2), avian(3)",
+    "losts": "avian(1), dhawal(0), curtis(1), chika(1) "
   }
   ]

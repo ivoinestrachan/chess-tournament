@@ -5,12 +5,14 @@ import Countdown from './Countdown';
 import Faq from './Faq';
 /*import Join from './Join'; */
 import styles from "../styles/faq.module.css"
-import Login from './Login';
+import WinnerLink from './WinnerLink';
+/*import Login from './Login'; */
 const Home = () => {
   return (
     <div>
       <Countdown />
-      <Login />
+      <WinnerLink />
+     {/* <Login /> */}
      {/* <Code /> */}
       <h2 className={styles.faqheading}>FAQS</h2>
       <Faq />
