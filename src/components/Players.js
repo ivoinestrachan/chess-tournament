@@ -18,11 +18,11 @@ const Players = () => {
   return (
     <div className={styles.tableContainer}>
       <div className={styles.tableCon}>
-      <h1>Round 1</h1>
+      <h1>Round 2</h1>
       <div className={styles.play}>
       <table class='table table-dark'>          
         <th>White</th>
-        <th>Won</th>
+        <th>Wins</th>
         <th>Black</th>   
         <th>Lost</th>
         <tbody>
